@@ -2,6 +2,7 @@ from controler import Controler
 from view import View
 
 
-controler = Controler()
-view = View(controler)
-view.run()
+if __name__ == '__main__':
+    controler = Controler()
+    view = View(controler)
+    view.run()
